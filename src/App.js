@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 
 function App() {
-  const [count, setCount] = useState(11);
-  const [countTen, setCountTen] = useState(101);
-  const [countRand, setCountRand] = useState(1110);
+  const [count, setCount] = useState(1);
+  const [countTen, setCountTen] = useState(10);
+  const [countRand, setCountRand] = useState(123);
 
   const addOne = () => {setCount(count + 1);}
   const addTen = () => {setCountTen(countTen + 10)}
